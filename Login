@@ -46,7 +46,7 @@ Login.TextScaled = true
 Login.TextSize = 14.000
 Login.TextWrapped = true
 Login.MouseButton1Down:Connect(function()
-	if Input.Text == "1111" then
+	if Input.Text == "Я.Л.К.В.М.О.М." then
 		main.Visible = false
 		
 		
