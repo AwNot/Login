@@ -10,7 +10,7 @@ local MadeBy = Instance.new("TextLabel")
 --Properties:
 
 PassSystem.Name = "PassSystem"
-PassSystem.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+PassSystem.Parent = game.CoreGui
 PassSystem.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
