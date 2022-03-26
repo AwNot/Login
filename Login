@@ -1,4 +1,7 @@
--- Made by: aw_not
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local PassSystem = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -43,10 +46,11 @@ Login.TextScaled = true
 Login.TextSize = 14.000
 Login.TextWrapped = true
 Login.MouseButton1Down:Connect(function()
-	if Input.Text == "zgDFLxw3wq7qxdrY" then
+	if Input.Text == "1111" then
 		main.Visible = false
 		
-		https://raw.githubusercontent.com/AwNot/HackersHub/main/Hub
+		
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AwNot/HackersHub/main/Hub"))()
 	end
 end)
 
