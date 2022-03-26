@@ -1,7 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+-- Made by: aw_not
 
 local PassSystem = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -46,10 +43,10 @@ Login.TextScaled = true
 Login.TextSize = 14.000
 Login.TextWrapped = true
 Login.MouseButton1Down:Connect(function()
-	if Input.Text == "1111" then
+	if Input.Text == "zgDFLxw3wq7qxdrY" then
 		main.Visible = false
 		
-		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+		https://raw.githubusercontent.com/AwNot/HackersHub/main/Hub
 	end
 end)
 
